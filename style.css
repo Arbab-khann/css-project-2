@@ -125,6 +125,7 @@ h3 {
 input[type="checkbox"] {
   height: 30px;
   width: 30px;
+  accent-color: gray;
 }
 .task-card form label {
   font-size: 18px;
@@ -193,7 +194,7 @@ input[type="checkbox"] {
 }
 /* ---------------------index 2--------------------- */
 .blur {
-  opacity: 0.6;
+  filter: blur(4px);
   z-index: -1;
 }
 .indexTwoFourBox {
@@ -293,11 +294,6 @@ input[type="checkbox"] {
  right: 50%;
  transform: translate(-50%);
   }
-.reposive{
-  position: absolute;
-  left: 500px;
-  top: 140px;
-}
   #displayNone {
     display: none;
   }
